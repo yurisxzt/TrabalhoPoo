@@ -32,6 +32,6 @@ public class MenuController : MonoBehaviour
 
     void CarregarJogo()
     {
-        SceneManager.LoadScene("NomeDaProximaCena"); // Troque para o nome real da cena
+        SceneManager.LoadScene("Market"); // Troque para o nome real da cena
     }
 }
