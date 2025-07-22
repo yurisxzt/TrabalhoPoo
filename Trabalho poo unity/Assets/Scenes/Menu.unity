@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Settings
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7b3314c4d9cb69e409303f3387a57667, type: 2}
-  m_sharedMaterial: {fileID: 2781136416534499790, guid: 7b3314c4d9cb69e409303f3387a57667, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -314,8 +314,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Dressing Room
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7b3314c4d9cb69e409303f3387a57667, type: 2}
-  m_sharedMaterial: {fileID: 2781136416534499790, guid: 7b3314c4d9cb69e409303f3387a57667, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -450,8 +450,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Diego
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7b3314c4d9cb69e409303f3387a57667, type: 2}
-  m_sharedMaterial: {fileID: 2781136416534499790, guid: 7b3314c4d9cb69e409303f3387a57667, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -919,8 +919,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7b3314c4d9cb69e409303f3387a57667, type: 2}
-  m_sharedMaterial: {fileID: 2781136416534499790, guid: 7b3314c4d9cb69e409303f3387a57667, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1398,8 +1398,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: MarketPlace
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7b3314c4d9cb69e409303f3387a57667, type: 2}
-  m_sharedMaterial: {fileID: 2781136416534499790, guid: 7b3314c4d9cb69e409303f3387a57667, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1927,8 +1927,9 @@ GameObject:
   - component: {fileID: 1625215796}
   - component: {fileID: 1625215795}
   - component: {fileID: 1625215794}
+  - component: {fileID: 1625215797}
   m_Layer: 5
-  m_Name: Setings
+  m_Name: Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1997,7 +1998,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1625215795}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1625215797}
+        m_TargetAssemblyTypeName: AbrirConfigComSom, Assembly-CSharp
+        m_MethodName: IrParaConfiguracoes
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1625215795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2036,6 +2049,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625215792}
   m_CullTransparentMesh: 1
+--- !u!114 &1625215797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625215792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a913c94b303f96478fced07b1a65f01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  somDeClique: {fileID: 1422867188}
 --- !u!1 &1634970147
 GameObject:
   m_ObjectHideFlags: 0
@@ -2048,6 +2074,7 @@ GameObject:
   - component: {fileID: 1634970151}
   - component: {fileID: 1634970150}
   - component: {fileID: 1634970149}
+  - component: {fileID: 1634970152}
   m_Layer: 5
   m_Name: MarketPlace
   m_TagString: Untagged
@@ -2118,7 +2145,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1634970150}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1634970152}
+        m_TargetAssemblyTypeName: TrocarCena, Assembly-CSharp
+        m_MethodName: IrParaCena
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Marketplace
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1634970150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2157,6 +2196,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634970147}
   m_CullTransparentMesh: 1
+--- !u!114 &1634970152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1634970147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eecea333295127e4d9acb6ac37e56c3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  somClique: {fileID: 1422867188}
 --- !u!1 &2116999250
 GameObject:
   m_ObjectHideFlags: 0
