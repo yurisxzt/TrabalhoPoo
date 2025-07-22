@@ -1705,8 +1705,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b70d0cb9ee789404bb2f3f2ba4899f9c, type: 3}
+  m_Resource: {fileID: 8300000, guid: b70d0cb9ee789404bb2f3f2ba4899f9c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.75
   m_Pitch: 1
@@ -1915,10 +1915,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a80703ba296ce64d818866d76af7b3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botaoPlay: {fileID: 1275544500}
-  botaoSettings: {fileID: 1625215794}
-  botaoMarketplace: {fileID: 1634970149}
-  somClique: {fileID: 1422867188}
 --- !u!1 &1625215792
 GameObject:
   m_ObjectHideFlags: 0
