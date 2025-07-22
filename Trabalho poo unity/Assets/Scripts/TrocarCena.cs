@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Trocando : MonoBehaviour
+public class IrParaSettings  : MonoBehaviour
 {
     public AudioSource somClique;
 
