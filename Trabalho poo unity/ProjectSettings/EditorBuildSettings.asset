@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/IntroMojang.unity
+    guid: 5958b113e824cb84bb94c447f748df00
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 8253c2e1ddfd8c0438cd6e4a73ce0f6b
   - enabled: 1
