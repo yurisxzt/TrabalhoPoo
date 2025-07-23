@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TNZThumbnail_0_0: 9113383588651429157
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
