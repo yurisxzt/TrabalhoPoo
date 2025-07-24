@@ -5,7 +5,7 @@ using UnityEngine.Video;
 public class IntroMojang : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
-    public string proximaCena = "MenuInicial"; // Troque para o nome da sua próxima cena
+    public string proximaCena = "MenuInicial"; 
 
     void Start()
     {
