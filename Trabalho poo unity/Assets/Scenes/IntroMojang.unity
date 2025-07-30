@@ -238,7 +238,7 @@ VideoPlayer:
   m_AspectRatio: 2
   m_DataSource: 0
   m_TimeUpdateMode: 2
-  m_PlaybackSpeed: 1
+  m_PlaybackSpeed: 0.55
   m_AudioOutputMode: 1
   m_TargetAudioSources:
   - {fileID: 0}
@@ -249,7 +249,7 @@ VideoPlayer:
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
-  m_SkipOnDrop: 1
+  m_SkipOnDrop: 0
   m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
@@ -394,7 +394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1187999377}
   fadeImage: {fileID: 1667013034}
-  fadeDuration: 1.5
+  fadeDuration: 1
   proximaCena: Menu
 --- !u!1 &1667013032
 GameObject:
@@ -430,8 +430,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000045776, y: 0.000015259}
-  m_SizeDelta: {x: 893.2, y: 376.2}
+  m_AnchoredPosition: {x: 0.024, y: -13.0449}
+  m_SizeDelta: {x: 2238.4238, y: 1126.0039}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1667013034
 MonoBehaviour:
