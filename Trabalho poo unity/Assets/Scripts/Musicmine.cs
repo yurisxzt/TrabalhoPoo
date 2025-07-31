@@ -9,11 +9,11 @@ public class MusicPlayer : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject); // Impede que o objeto seja destruído
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
-            Destroy(gameObject); // Evita duplicatas
+            Destroy(gameObject);
         }
     }
 }

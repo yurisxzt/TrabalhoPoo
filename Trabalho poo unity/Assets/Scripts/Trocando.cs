@@ -9,12 +9,12 @@ public class TrocarCena : MonoBehaviour
     {
         if (somClique != null)
         {
-            somClique.Play(); // toca o som
-            StartCoroutine(CarregarCenaComDelay(PLay)); // espera o som antes de trocar
+            somClique.Play(); 
+            StartCoroutine(CarregarCenaComDelay(PLay));
         }
         else
         {
-            SceneManager.LoadScene(PLay); // troca direto se não tiver som
+            SceneManager.LoadScene(PLay); 
         }
     }
 
